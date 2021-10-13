@@ -1,6 +1,5 @@
 #include "utils.h"
 #include "string.h" //--- size_t work with yhis library
-#include "stddev.h" // ---
 
 #define ERR_ARGS_COUNT (-1)
 #define ERR_WRONG_FLG (-2)
