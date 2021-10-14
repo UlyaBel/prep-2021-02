@@ -4,7 +4,7 @@
 
 size_t timer_from(unsigned char from)
 {
-    size_t counter = 0; // --- counter need initial value
+    size_t counter = 0; // --- counter need initial value (0)
     for (char i = from; i >= 0; i--)
     { // --- i must be signed char
         ++counter;
