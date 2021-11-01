@@ -1,0 +1,23 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "type": "cppbuild",
+      "label": "C/C++: cpp.exe сборка активного файла",
+      "command": "C:\\Program Files\\PTC\\MKS Toolkit\\bin\\cpp.exe",
+      "args": [
+        "-fdiagnostics-color=always",
+        "-g",
+        "${file}",
+        "-o",
+        "${fileDirname}\\${fileBasenameNoExtension}.exe"
+      ],
+      "options": {
+        "cwd": "C:\\Program Files\\PTC\\MKS Toolkit\\bin"
+      },
+      "problemMatcher": ["$gcc"],
+      "group": "build",
+      "detail": "компилятор: \"C:\\Program Files\\PTC\\MKS Toolkit\\bin\\cpp.exe\""
+    }
+  ]
+}
